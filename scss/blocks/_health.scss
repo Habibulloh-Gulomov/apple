@@ -1,0 +1,55 @@
+.health{
+  padding: 200px 0 239px;
+  background-image: url(../../img/lover.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.health__content{
+  width: 100%;
+  max-width: 450px;
+  margin-left: auto;
+}
+
+.health__title{
+  margin: 0 0 30px;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 120%;
+  color: #fff;
+}
+
+.health__text{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #fff;
+  margin: 0;
+  padding-left: 40px;
+  border-left: 3px solid #fff;
+  margin-bottom: 42px;
+}
+
+.health__link{
+  padding: 12px 38px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 150%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  text-decoration: none;
+  background: #EA625C;
+}
+
+@media only screen and(max-width:520px){
+  .health{
+  padding: 170px 0 200px;
+  }
+  .health__title{
+    font-size: 46px;
+  }
+}
+
+

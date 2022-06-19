@@ -1,0 +1,94 @@
+.sport{
+  margin-bottom: 70px;
+}
+
+.sport__inner{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  &::after{
+    display: block;
+    width:400px;
+    height: 599px;
+    background-image: url(../../img/watch-in-hand.png);
+    background-repeat: no-repeat;
+    background-size:400px 599px ;
+    background-color: none;
+    content: '';
+  }
+}
+
+.sport__content{
+  width: 100%;
+  max-width: 450px;
+}
+
+.sport__title{
+  margin: 0 0 30px;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 120%;
+  color: #000000;
+}
+
+.sport__text{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #777777;
+  margin: 0;
+  padding-left: 40px;
+  border-left: 3px solid #888888;
+  margin-bottom: 42px;
+}
+
+.sport__link{
+  padding: 12px 38px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 150%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  text-decoration: none;
+  background: #EA625C;
+}
+
+@media only screen and(max-width:520px){
+  .sport__inner{
+    flex-direction: column-reverse;
+    &::after{
+    background-size: 343px 420px;
+    width:343px ;
+    height: 420px;  
+    margin-bottom: 41px;
+ }
+  
+  }
+  .sport__content{
+    max-width: 350px;
+  }
+  .sport__title{
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 120%;
+  }
+}
+
+@media only screen and(max-width:360px){
+  .sport__inner{
+    flex-direction: column-reverse;
+    &::after{
+    background-size: 280px 360px;
+    width:280px ;
+    height: 360px;  
+    margin-bottom: 41px;
+ }
+}
+  .sport__title{
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 100%;
+}
+}
